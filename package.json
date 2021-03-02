@@ -1,0 +1,36 @@
+{
+  "name": "deploynode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/HigorMatheus/deploynode.git",
+  "author": "Higor Matheus O Vieira <hmoliveira83@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev:server": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules  src/server.ts"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "typeorm": "^0.2.31"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/jest": "^25.2.1",
+    "@types/supertest": "^2.0.8",
+    "@types/uuid": "^8.3.0",
+    "@typescript-eslint/eslint-plugin": "^4.16.0",
+    "@typescript-eslint/parser": "^4.16.0",
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "jest": "^25.3.0",
+    "prettier": "^2.2.1",
+    "supertest": "^4.0.2",
+    "ts-jest": "^25.3.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3"
+  }
+}
